@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>arrowRight</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="FUJICONS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrowRight" fill="#010202">
+            <path d="M20.496,11.0025 L7.325,11.0025 L11.621,6.7065 C12.012,6.3165 12.012,5.6835 11.621,5.2925 C11.231,4.9025 10.597,4.9025 10.207,5.2925 L3.5,11.9995 L3.5,11.9995 L3.5,12.0005 L10.207,18.7075 C10.597,19.0975 11.231,19.0975 11.621,18.7065 C12.012,18.3165 12.012,17.6835 11.621,17.2925 L7.331,13.0035 L20.496,13.0035 L20.496,11.0025 Z" id="Fill-1" transform="translate(11.998000, 11.999938) scale(-1, 1) translate(-11.998000, -11.999938) "></path>
+        </g>
+    </g>
+</svg>
