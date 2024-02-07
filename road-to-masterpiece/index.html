@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<title>Road to Masterpiece by Tanyoung Kim</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://tany.kim/masterpiece/"/>
+<meta property="og:title" content="Oscars Best Directing Winners"/>
+<meta property="og:site_name" content="Road to Masterpiece"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:description" content="Visualiation of Academy Awards Winners in Best Directing since 1941"/>
+<meta property="og:image" content="http://tany.kim/images/masterpiece.png"/>
+<meta property="og:image:secure_url" content="https://tany.kim/images/masterpiece.png"/>
+<meta property="og:image:type" content="image/png"/>
+<meta property="og:image:width" content="1291"/>
+<meta property="og:image:height" content="1008"/>
+</head>
+<body>
+<div class="header">
+	<div class="title js-title">Road to Masterpiece</div>
+	<div class="desc"><span class="js-director-count"></span> <span class="highlight-1">Film directors</span> who won <span class="highlight-2">Academy Awards</span> for <span class="highlight-3">Best Directing</span> Since 1941</div>
+	<div class="options-wrapper">
+		<ul class="options">
+			<li class="option-title">Sort by</li>
+			<li class="sort">
+				<div class="sort-selected link js-sort-selected">Year of the first Oscars (new to old)</div>
+				<ul class="list invisible js-sort-list">
+					<li class="list-year" data-value="year_asc"> Year of the first Oscars (old to new) </li>
+					<li class="list-year selected" data-value="year_desc"> Year of the first Oscars (new to old) </li>
+					<li class="list-age divide" data-value="age_asc"> Age at the first Oscars (young to old) </li>
+					<li class="list-age" data-value="age_desc"> Age at the first Oscars (old to young)</li>
+					<li class="list-career divide" data-value="career_asc"> Years from debut (short to long) </li>
+					<li class="list-career" data-value="career_desc"> Years from debut (long to short) </li>
+					<li class="list-normal divide" data-value="firstname"> Name (A-Z)</li>
+					<li class="list-normal" data-value="count_asc"> Number of directed movies (small to large)</li>
+					<li class="list-normal" data-value="count_desc"> Number of directed movies (large to small)</li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="options-right">
+			<li class="option-title js-option-timeline"> Timeline</li>
+			<li class="js-option-timeline">
+				<input type="radio" name="axis" data-value="age" checked="checked"> Age (0-100)</input>
+				<input type="radio" name="axis" data-value="year"> Year (1910-2020)</input>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="small-screen js-small">
+	<div class="close link js-small-close"><i class="fa fa-times fa-lg"></i></div>
+	You can see more interesting visualiation on a bigger screen!<br/>
+	<i class="twitter link js-social fa fa-twitter-square fa-2x" data-value="t"></i>
+	<i class="facebook link js-social fa fa-facebook-square fa-2x" data-value="f"></i>
+</div>
+<div id="vis-axis" class="vis-axis js-vis-axis"></div>
+<div id="vis" class="vis">
+	<div class="loading js-loading">LOADING</div>
+	<div class="director-more hide js-director-more">
+		<div class="dummy"></div>
+		<div class="name">
+			<span class="js-d-name"></span>
+			<span class="imdb"><a class="js-d-imdb" href="" target="_blank">imdb</a></span>
+		</div>
+		<ul class="first">
+			<li class="oscars">First Oscars</li>
+			<li class="time">
+				At the age of <span class="age js-d-age"></span> (<span class="js-d-year"></span>) <br/>
+				After <span class="career js-d-career"></span> years of debut, <span class="debut js-d-debut"></span>
+			</li>
+		</ul>
+		<div class="won">
+			<span class="heading">Won</span>
+			<ul class="js-d-won"></ul>
+			<div class="nominated hide js-d-nominated-wrapper">
+				<span class="heading">Nominated</span>
+				<ul class="js-d-nominated"></ul>
+			</div>
+		</div>
+		<div class="directed">
+			Directed total <span class="number js-d-number"></span> movies
+		</div>
+	</div>
+</div>
+<div class="header-scrolled hide js-header-title">Road to Masterpiece</div>
+<div class="header-social">
+	<i class="twitter link js-social fa fa-twitter-square fa-2x" data-value="t"></i>
+	<i class="facebook link js-social fa fa-facebook-square fa-2x" data-value="f"></i>
+</div>
+<div class="footer">
+	<div class="content">
+		<span class="source-title">DATA SOURCES</span>
+		<div class="sources">
+			List of Academy Awards Winners:
+			<a href="http://en.wikipedia.org/wiki/Academy_Award_for_Best_Directing" target="_blank">
+				http://en.wikipedia.org/wiki/Academy_Award_for_Best_Directing
+			</a><br/>
+			Ceremony Dates of Academy Awards:
+			<a href="http://en.wikipedia.org/wiki/List_of_Academy_Awards_ceremonies" target="_blank">
+				http://en.wikipedia.org/wiki/List_of_Academy_Awards_ceremonies
+			</a><br/>
+				Directors' works and basic biography:
+			The Movie Database API, <a href="http://docs.themoviedb.apiary.io" target="_blank">
+			http://docs.themoviedb.apiary.io</a>
+		</div>
+	</div>
+	<div class="copyright">
+		View on <a href="https://github.com/tanykim/road-to-masterpiece" target="_blank" class="l1">GitHub</a><br/>
+		© 2015-2018 <a href="http://tany.kim" target="_blank" class="l2">Tanyoung Kim</a>
+		<a href="http://twitter.com/tanykim" target="_blank" class="l3">@tanykim</a>
+	</div>
+	<div class="notice">If you find any errors in the dataset or visualization, <a href="mailto:tanykim@gmail.com">please let me know</a></div>
+	<div class="footer-share">
+		<i class="twitter link js-social fa fa-twitter fa-2x" data-value="t"></i>
+		<i class="facebook link js-social fa fa-facebook fa-2x" data-value="f"></i>
+	</div>
+</div>
+<script data-main="script/main" src="http://requirejs.org/docs/release/2.1.17/minified/require.js"></script>
+</body>
+</html>
