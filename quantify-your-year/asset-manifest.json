@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/quantify-your-year/static/css/main.4f2fdfcc.chunk.css",
+    "main.js": "/quantify-your-year/static/js/main.7a9ddab8.chunk.js",
+    "main.js.map": "/quantify-your-year/static/js/main.7a9ddab8.chunk.js.map",
+    "runtime~main.js": "/quantify-your-year/static/js/runtime~main.9307e79e.js",
+    "runtime~main.js.map": "/quantify-your-year/static/js/runtime~main.9307e79e.js.map",
+    "static/css/2.39e6be60.chunk.css": "/quantify-your-year/static/css/2.39e6be60.chunk.css",
+    "static/js/2.203b1578.chunk.js": "/quantify-your-year/static/js/2.203b1578.chunk.js",
+    "static/js/2.203b1578.chunk.js.map": "/quantify-your-year/static/js/2.203b1578.chunk.js.map",
+    "index.html": "/quantify-your-year/index.html",
+    "precache-manifest.12660abc2ee7862feb4a1112b0c72dc9.js": "/quantify-your-year/precache-manifest.12660abc2ee7862feb4a1112b0c72dc9.js",
+    "service-worker.js": "/quantify-your-year/service-worker.js",
+    "static/css/2.39e6be60.chunk.css.map": "/quantify-your-year/static/css/2.39e6be60.chunk.css.map",
+    "static/css/main.4f2fdfcc.chunk.css.map": "/quantify-your-year/static/css/main.4f2fdfcc.chunk.css.map",
+    "static/media/font-awesome.css": "/quantify-your-year/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/bootstrap.min.css": "/quantify-your-year/static/media/glyphicons-halflings-regular.fa277232.woff"
+  }
+}
